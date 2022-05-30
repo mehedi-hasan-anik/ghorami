@@ -1,0 +1,9 @@
+.side_bar {
+  height: 100%;
+  background: #43425d;
+}
+.navBar {
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto;
+}

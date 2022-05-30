@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Zaker Uddin",
+        "country":"Bangladesh",
+        "availableProject":"10",
+        "valuation":3,
+        "img": "https://i.ibb.co/SsyQX3k/2c7d99fe281ecd3bcd65ab915bac6dd5-s-250.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Kamal Uddin",
+        "country":"Bangladesh",
+        "availableProject":"20",
+        "valuation":5,
+        "img": "https://i.ibb.co/BZn9ctK/400-img-59.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Jamal Uddin",
+        "country":"Bangladesh",
+        "availableProject":"15",
+        "valuation":4,
+        "img": "https://i.ibb.co/JKGmjP0/400-img-56.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kolim Uddin",
+        "country":"Bangladesh",
+        "availableProject":"25",
+        "valuation":6,
+        "img": "https://i.ibb.co/RzX43Xw/400-img-51.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Arif Uddin",
+        "country":"Bangladesh",
+        "availableProject":"17",
+        "valuation":4,
+        "img": "https://i.ibb.co/W29j7Ks/400-img-17.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Kabel Uddin",
+        "country":"Bangladesh",
+        "availableProject":"20",
+        "valuation":5,
+        "img": "https://i.ibb.co/PjL7C4k/400-img-12.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Nasir Uddin",
+        "country":"Bangladesh",
+        "availableProject":"10",
+        "valuation":3,
+        "img": "https://i.ibb.co/hC7nSxZ/400-img-13.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Nazim Uddin",
+        "country":"Bangladesh",
+        "availableProject":"15",
+        "valuation":4,
+        "img": "https://i.ibb.co/ssTqvLz/400-img-18.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Eftykhar Uddin",
+        "country":"Bangladesh",
+        "availableProject":"19",
+        "valuation":5,
+        "img": "https://i.ibb.co/dWNMYh8/400-img-7.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Salaudiin",
+        "country":"Bangladesh",
+        "availableProject":"27",
+        "valuation":6,
+        "img": "https://i.ibb.co/K5XgBQD/400-img-57.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Zia Uddin",
+        "country":"Bangladesh",
+        "availableProject":"12",
+        "valuation":3,
+        "img": "https://i.ibb.co/WvtF3qs/400-img-54.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Mayeuddin",
+        "country":"Bangladesh",
+        "availableProject":"20",
+        "valuation":5,
+        "img": "https://i.ibb.co/PZwT47f/400-img-60.jpg"
+    }
+]

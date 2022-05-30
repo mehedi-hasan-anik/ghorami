@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.content_center {
+  justify-content: center;
+}
+.content_between {
+  justify-content: space-between;
+}
+.content_around {
+  justify-content: space-around;
+}
+.content_end {
+  justify-content: end;
+}
+
+.item_center{
+  align-items: center;
+}

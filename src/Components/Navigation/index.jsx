@@ -1,39 +1,11 @@
-import { MailOutlined, SettingOutlined } from "@ant-design/icons";
+import { HomeOutlined } from "@ant-design/icons";
 import { Col, Menu, Row } from "antd";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Topbar from "../Topbar";
-function getItem(label, key, icon, children, type) {
-  return {
-    key,
-    icon,
-    children,
-    label,
-    type,
-  };
-}
+import "./Navigation.css";
 
-const items = [
-  getItem("Navigation One", "sub1", <MailOutlined />, [
-    getItem("Option 1", "1"),
-    getItem("Option 2", "2"),
-    getItem("Option 3", "3"),
-    getItem("Option 4", "4"),
-  ]),
-  getItem("Navigation Two", "sub2", <SettingOutlined />, [
-    getItem("Option 5", "5"),
-    getItem("Option 6", "6"),
-    getItem("Submenu", "sub3", null, [
-      getItem("Option 7", "7"),
-      getItem("Option 8", "8"),
-    ]),
-  ]),
-  getItem("Navigation Three", "sub4", <SettingOutlined />, [
-    getItem("Option 9", "9"),
-    getItem("Option 10", "10"),
-    getItem("Option 11", "11"),
-    getItem("Option 12", "12"),
-  ]),
-]; // submenu keys of first level
+const { SubMenu } = Menu;
 
 const rootSubmenuKeys = ["sub1", "sub2", "sub4"];
 
@@ -51,20 +23,33 @@ const Navigation = ({ children }) => {
   };
 
   return (
-    <div>
-      <Row gutter={16}>
-        <Col className="gutter-row" span={6}>
-          <Menu
-            mode="inline"
-            openKeys={openKeys}
-            onOpenChange={onOpenChange}
-            style={{
-              width: 256,
-            }}
-            items={items}
-          />
+    <div className="navBar">
+      <Row>
+        <Col className="gutter-row" lg={4}>
+          <div className="side_bar">
+            <Menu
+              mode="inline"
+              theme="dark"
+              openKeys={openKeys}
+              onOpenChange={onOpenChange}
+            >
+              <Menu.Item key="home" icon={<HomeOutlined />}>
+                <Link to="/">Home</Link>
+              </Menu.Item>
+
+              <Menu.Item key="investor-account" icon={<HomeOutlined />}>
+                <Link to="/investor-account">Investor Account</Link>
+              </Menu.Item>
+
+              <SubMenu key="about_us" title="About US">
+                <Menu.Item key="about">
+                  <Link to="/about">About</Link>
+                </Menu.Item>
+              </SubMenu>
+            </Menu>
+          </div>
         </Col>
-        <Col className="gutter-row" span={10}>
+        <Col className="gutter-row" lg={20}>
           <Topbar />
           {children}
         </Col>
