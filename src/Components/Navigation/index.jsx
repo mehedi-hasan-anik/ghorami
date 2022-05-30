@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Topbar from "../Topbar";
 import "./Navigation.css";
 
-const { SubMenu } = Menu;
+// const { SubMenu } = Menu;
 
 const rootSubmenuKeys = ["sub1", "sub2", "sub4"];
 
@@ -40,12 +40,15 @@ const Navigation = ({ children }) => {
               <Menu.Item key="investor-account" icon={<HomeOutlined />}>
                 <Link to="/investor-account">Investor Account</Link>
               </Menu.Item>
+              <Menu.Item key="information" icon={<HomeOutlined />}>
+                <Link to="/information">Information</Link>
+              </Menu.Item>
 
-              <SubMenu key="about_us" title="About US">
+              {/* <SubMenu key="about_us" title="About US">
                 <Menu.Item key="about">
                   <Link to="/about">About</Link>
                 </Menu.Item>
-              </SubMenu>
+              </SubMenu> */}
             </Menu>
           </div>
         </Col>

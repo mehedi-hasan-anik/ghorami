@@ -36,7 +36,7 @@ const Topbar = () => {
               <img src={logo} alt="logo" className="logo" />
             </div>
 
-            <div className="search_ber" style={{ marginLeft: "100px" }}>
+            <div className="search_ber">
               <Input
                 size="large"
                 placeholder="Search"

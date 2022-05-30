@@ -1,8 +1,11 @@
 import { Col, Row } from "antd";
 import { useEffect, useState } from "react";
+import Advertisment from "../../Components/Advertisment";
 import HomeCard from "../../Components/HomeCard";
 import Navigation from "../../Components/Navigation";
+import SearchBar from "../../Components/SearchBar";
 import homePageData from "../../data/suppliers.json";
+import photo from "../../image/8TxrGkbGc.gif";
 import "./Home.styles.css";
 
 const Home = () => {
@@ -12,13 +15,12 @@ const Home = () => {
     setSupplier(homePageData);
   }, []);
 
-  console.log("supplier", supplier);
-
   return (
     <Navigation>
       <div className="home-single-card-wrapper">
         <Row gutter={20}>
-          <Col lg={18}>
+          <Col lg={20}>
+            <SearchBar />
             <Row>
               {supplier?.map((item, index) => (
                 <Col className="gutter-row" lg={8}>
@@ -27,13 +29,23 @@ const Home = () => {
               ))}
             </Row>
           </Col>
-          <Col lg={6}>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-              magnam quas ipsam asperiores, beatae voluptate pariatur tempora
-              quod praesentium distinctio tenetur, eaque quos quia molestiae ad
-              eum. Rerum, doloremque impedit.
-            </p>
+          <Col lg={4}>
+            <h3>Exclusive</h3>
+            <Advertisment
+              img={photo}
+              title="EasySell"
+              subTitle="Professional features for your business to grow. Crowdfunding is most
+        oen used by startup companies or growing businesses as a way of
+        accessing alternative funds."
+            />
+            <br />
+            <Advertisment
+              img={photo}
+              title="EasySell"
+              subTitle="Professional features for your business to grow. Crowdfunding is most
+        oen used by startup companies or growing businesses as a way of
+        accessing alternative funds."
+            />
           </Col>
         </Row>
       </div>
