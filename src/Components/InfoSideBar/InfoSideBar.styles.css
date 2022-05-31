@@ -1,5 +1,6 @@
 .info-side-bar-wrapper {
   border-left: 1px solid grey;
+  border-right: 1px solid grey;
   height: 100vh;
   padding: 10px;
 }

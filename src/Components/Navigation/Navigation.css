@@ -2,6 +2,14 @@
   height: 100%;
   background: #43425d;
 }
+.menu-list {
+  background: #43425d;
+  color: white;
+  width: 100.5%;
+}
+.side_bar .ant-menu-item a {
+  color: white;
+}
 .navBar {
   max-width: 1300px;
   width: 100%;

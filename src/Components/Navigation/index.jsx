@@ -28,8 +28,9 @@ const Navigation = ({ children }) => {
         <Col className="gutter-row" lg={4}>
           <div className="side_bar">
             <Menu
+              className="menu-list"
               mode="inline"
-              theme="dark"
+              // theme="dark"
               openKeys={openKeys}
               onOpenChange={onOpenChange}
             >
@@ -37,9 +38,9 @@ const Navigation = ({ children }) => {
                 <Link to="/">Home</Link>
               </Menu.Item>
 
-              <Menu.Item key="investor-account" icon={<HomeOutlined />}>
+              {/* <Menu.Item key="investor-account" icon={<HomeOutlined />}>
                 <Link to="/investor-account">Investor Account</Link>
-              </Menu.Item>
+              </Menu.Item> */}
               <Menu.Item key="information" icon={<HomeOutlined />}>
                 <Link to="/information">Information</Link>
               </Menu.Item>
