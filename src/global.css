@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   outline: none;
@@ -14,6 +14,7 @@ body {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .content_center {
@@ -29,6 +30,6 @@ body {
   justify-content: end;
 }
 
-.item_center{
+.item_center {
   align-items: center;
 }
