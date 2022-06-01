@@ -38,11 +38,13 @@ const Navigation = ({ children }) => {
                 <Link to="/">Home</Link>
               </Menu.Item>
 
-              {/* <Menu.Item key="investor-account" icon={<HomeOutlined />}>
-                <Link to="/investor-account">Investor Account</Link>
-              </Menu.Item> */}
+            
               <Menu.Item key="information" icon={<HomeOutlined />}>
                 <Link to="/information">Information</Link>
+              </Menu.Item>
+
+              <Menu.Item key="investor-account" icon={<HomeOutlined />}>
+                <Link to="/investor-account">Investor Account</Link>
               </Menu.Item>
 
               {/* <SubMenu key="about_us" title="About US">

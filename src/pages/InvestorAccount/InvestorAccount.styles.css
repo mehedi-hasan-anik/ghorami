@@ -1,0 +1,23 @@
+.investorAccount-page {
+  height: calc(100vh - 80px);
+}
+.investor-account-page-title {
+  text-align: left;
+  padding: 20px;
+}
+.investment-card {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 400px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+.investment-card h3 {
+  color: #a7aeff;
+}
+.investment-card img {
+  width: 100px;
+}
+.card {
+  padding: 50px;
+}

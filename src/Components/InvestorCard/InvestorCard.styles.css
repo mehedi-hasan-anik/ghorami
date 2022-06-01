@@ -1,0 +1,12 @@
+.investment-single-card {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+.investment-single-card h3 {
+  color: #a7aeff;
+}
+.investment-single-card img {
+  width: 70px;
+}
